@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Content from "./components/Hooks/previewAvatar";
+import UseEffect from "./components/Hooks/useEffect";
+import ComboBox from "./components/MUI/ComboBox";
+import DataTable from "./components/MUI/DataTable";
+import MUI from "./components/MUI/MUI";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return(
+      <>
+        {/* <ComboBox/> */}
+        {/* <UseEffect/> */}
+        {/* <DataTable/> */}
+        <Content/>
+      </>
+    )
 }
 
 export default App;
